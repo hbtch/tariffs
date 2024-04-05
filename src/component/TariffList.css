@@ -1,0 +1,5 @@
+.tariff-list {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Добавляем отступ между карточками */
+}
