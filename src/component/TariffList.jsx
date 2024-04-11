@@ -1,12 +1,16 @@
 import React from "react";
 import TariffItem from "./TariffItem";
-import "./TariffList.css"; // Подключаем файл стилей
+import "./TariffList.css";
 
 function TariffList({ tariffs }) {
   return (
-    <div className="tariff-list">
-      {tariffs.map(tariff => (
-        <TariffItem key={tariff.id} tariff={tariff} />
+    <div className="tariffList"> {/* Используем className="tariffList" */}
+      {tariffs.map((tariff, index) => (
+        <TariffItem
+          key={tariff.id}
+          tariff={tariff}
+          isHighlighted={index === 2}
+        />
       ))}
     </div>
   );

@@ -1,0 +1,27 @@
+.tariffItem {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+}
+
+.highlighted {
+  background-color: #ffd700;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  height: 300px;
+}
+
+.tariffName {
+  font-size: 20px;
+}
+
+.tariffPrice {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.tariffDescription {
+  font-size: 16px;
+}
