@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tariffs/static/css/main.aca96ccd.css",
+    "main.js": "/tariffs/static/js/main.f14e56e1.js",
+    "index.html": "/tariffs/index.html",
+    "main.aca96ccd.css.map": "/tariffs/static/css/main.aca96ccd.css.map",
+    "main.f14e56e1.js.map": "/tariffs/static/js/main.f14e56e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aca96ccd.css",
+    "static/js/main.f14e56e1.js"
+  ]
+}
